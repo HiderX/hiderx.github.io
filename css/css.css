@@ -11,6 +11,26 @@
     /* 以下代表透明度为0.5 */
     background: rgba(255,255,255,.5);
 }
+/*侧边栏页面*/
+#aside-content>.card-widget  {
+    background: rgba(255,255,255,.6);
+}
+#aside-content>.sticky_layout>.card-widget{
+    background: rgba(255,255,255,.6);
+}
+/*文章页面*/
+.layout>#post{
+    background: rgba(255,255,255,.6);
+}
+/*分类页面*/
+.layout>#page{
+    
+    background: rgba(255,255,255,.6);
+}
+/*时间轴页面*/
+.layout>#archive{
+    background: rgba(255,255,255,.6);
+}
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 
 #page-header.post-bg:before {
   background-color: transparent!important;
