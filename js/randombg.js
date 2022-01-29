@@ -1,15 +1,11 @@
 //随机背景图片数组,图片可以换成图床链接，注意最后一条后面不要有逗号
 var backimg =[
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b70641.jpg)",
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b70648.png)",
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b70658.png)",
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b7066e.jpg)",
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b70677.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b734f3.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b734fc.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b73507.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b73519.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b73530.jpg)"
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92d9.jpg)",
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92dc.jpg)",
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92e3.jpg)",
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92ec.jpg)",
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92fb.jpg)",
+    "url(https://pic.imgdb.cn/item/61f539132ab3f51d916c9a6b.jpg)"
   ];
   //获取背景图片总数，生成随机数
   var bgindex =Math.floor(Math.random() * (backimg.length));
@@ -17,16 +13,12 @@ var backimg =[
   document.getElementById("web_bg").style.backgroundImage = backimg[bgindex];
   //随机banner数组,图片可以换成图床链接，注意最后一条后面不要有逗号
   var bannerimg =[
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b70641.jpg)",
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b70648.png)",
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b70658.png)",
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b7066e.jpg)",
-    "url(https://pic.imgdb.cn/item/61f146032ab3f51d91b70677.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b734f3.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b734fc.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b73507.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b73519.jpg)",
-    "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b73530.jpg)"
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92d9.jpg)",
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92dc.jpg)",
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92e3.jpg)",
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92ec.jpg)",
+    "url(https://pic.imgdb.cn/item/61f538042ab3f51d916b92fb.jpg)",
+    "url(https://pic.imgdb.cn/item/61f539132ab3f51d916c9a6b.jpg)"
   ];
   //获取banner图片总数，生成随机数
   var bannerindex =Math.ceil(Math.random() * (bannerimg.length-1));
