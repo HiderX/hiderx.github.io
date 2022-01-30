@@ -33,6 +33,7 @@
   [data-theme='dark'] html{
      filter: grayscale(100%);
   } */
+
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{
     left: -68px;
     transition: 0.5s ;
