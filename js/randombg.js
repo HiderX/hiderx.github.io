@@ -13,7 +13,6 @@ var backimg =[
     "url(https://pic.imgdb.cn/item/61f60dbc2ab3f51d91437d8a.jpg)",
     "url(https://pic.imgdb.cn/item/61f60dbc2ab3f51d91437d91.jpg)",
     "url(https://pic.imgdb.cn/item/61f60dbc2ab3f51d91437d97.jpg)",
-    "url(https://pic.imgdb.cn/item/61f60dbc2ab3f51d91437d9f.jpg)",
     "url(https://pic.imgdb.cn/item/61f60dbc2ab3f51d91437db4.jpg)",
     "url(https://pic.imgdb.cn/item/61f1463b2ab3f51d91b73519.jpg)",
     "url(https://pic.imgdb.cn/item/61f60dd92ab3f51d91439a3b.jpg)",
