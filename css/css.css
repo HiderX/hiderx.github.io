@@ -362,7 +362,7 @@ color: skyblue;
 
 /* 深色模式动画 */
 
-.Cuteen_DarkSky,
+/* .Cuteen_DarkSky,
 .Cuteen_DarkSky:before {
 content: '';
 position: fixed;
@@ -426,7 +426,7 @@ background: linear-gradient(#fefefe, #fffbe8);
 .menus_item a{
 text-decoration: none!important;
 }
-/*深色模式按钮*/
+/*深色模式按钮
 .icon-V {
   
   border-radius: 6px !important;
@@ -450,7 +450,7 @@ text-decoration: none!important;
   bottom: -10px;
   margin: auto;
   right: 1px;
-}
+} */
 
 /* 字体颜色变灰白色 */
 
