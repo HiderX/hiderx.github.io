@@ -34,13 +34,13 @@
      filter: grayscale(100%);
   } */
 
-.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{
+/* .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{
     left: -68px;
     transition: 0.5s ;
 }
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{
     left: 0;
-}
+} */
  /*黑暗模式透明*/
 [data-theme="dark"]
   #aside-content .card-widget{
@@ -102,7 +102,7 @@ div#category{
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* cursor */
+/* cursor
 html {
 cursor: url(https://cdn.jsdelivr.net/gh/jnylife/ImgHosting//img/202111301736928.cur),
     default;
@@ -112,7 +112,7 @@ img,
 .menus_item,button,#site-name,#page-header #scroll-down .scroll-down-effects {
 cursor: url(https://cdn.jsdelivr.net/gh/jnylife/ImgHosting//img/202111301737778.cur),
     default;
-}
+} */
 
 
 
@@ -189,7 +189,7 @@ cursor: url(https://cdn.jsdelivr.net/gh/jnylife/ImgHosting//img/202111301737778.
     }
 }
 
-/* test.css*/
+/* test.css
 #article-container h1:before, #article-container h2:before, #article-container h3:before, #article-container h4:before, #article-container h5:before, #article-container h6:before {
   position: absolute;
   top: calc(50% - 0.35rem);
@@ -360,7 +360,7 @@ color: skyblue;
   background:  transparent !important;
   box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
   
-}
+} */
 
 /*tag*/
 #page .tag-cloud-list a:nth-of-type(1) {
