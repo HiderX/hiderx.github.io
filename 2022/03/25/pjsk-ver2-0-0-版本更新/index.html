@@ -1,0 +1,942 @@
+<!DOCTYPE html><html lang="zh" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>pjsk ver2.0.0 版本更新 | Kang's</title><meta name="keywords" content="pjsk,音游"><meta name="author" content="Yicheng Kang"><meta name="copyright" content="Yicheng Kang"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="アップデートノート 更新说明 v2.0.0  1.5周年のアップデートノートへようこそ！こんにちは、『プロジェクトセカイ』開発チームです。 久しぶりのメジャーアップデートとなるバージョン2.0.0では、主に新しい遊び方となる「ランクマッチ」の実装が行われます。 欢迎阅读1.5周年更新日志！ 大家好，这里是『Project SEKAI』开发团队。 在本次时隔已久的大型更新2.0.0当中，主要将实装作">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pjsk ver2.0.0 版本更新">
+<meta property="og:url" content="http://101.34.222.114/2022/03/25/pjsk-ver2-0-0-%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/index.html">
+<meta property="og:site_name" content="Kang&#39;s">
+<meta property="og:description" content="アップデートノート 更新说明 v2.0.0  1.5周年のアップデートノートへようこそ！こんにちは、『プロジェクトセカイ』開発チームです。 久しぶりのメジャーアップデートとなるバージョン2.0.0では、主に新しい遊び方となる「ランクマッチ」の実装が行われます。 欢迎阅读1.5周年更新日志！ 大家好，这里是『Project SEKAI』开发团队。 在本次时隔已久的大型更新2.0.0当中，主要将实装作">
+<meta property="og:locale">
+<meta property="og:image" content="https://pic.imgdb.cn/item/62429bf927f86abb2a877eee.png">
+<meta property="article:published_time" content="2022-03-25T05:38:00.000Z">
+<meta property="article:modified_time" content="2022-03-29T06:04:23.819Z">
+<meta property="article:author" content="Yicheng Kang">
+<meta property="article:tag" content="pjsk">
+<meta property="article:tag" content="音游">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic.imgdb.cn/item/62429bf927f86abb2a877eee.png"><link rel="shortcut icon" href="https://pic.imgdb.cn/item/61e3758e2ab3f51d91dd4d8a.jpg"><link rel="canonical" href="http://101.34.222.114/2022/03/25/pjsk-ver2-0-0-%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"Author: Yicheng Kang","link":"Link: ","source":"Source: Kang's","info":"Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source."}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"Traditional Chinese Activated Manually","cht_to_chs":"Simplified Chinese Activated Manually","day_to_night":"Dark Mode Activated Manually","night_to_day":"Light Mode Activated Manually","bgLight":"#49b1f5","bgDark":"#121212","position":"top-right"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'pjsk ver2.0.0 版本更新',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-03-29 14:04:23'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/css.css"><script src="/live2d-widget/autoload.js"></script><meta name="generator" content="Hexo 6.0.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="wizard-scene"><div class="wizard-objects"><div class="wizard-square"></div><div class="wizard-circle"></div><div class="wizard-triangle"></div></div><div class="wizard"><div class="wizard-body"></div><div class="wizard-right-arm"><div class="wizard-right-hand"></div></div><div class="wizard-left-arm"><div class="wizard-left-hand"></div></div><div class="wizard-head"><div class="wizard-beard"></div><div class="wizard-face"><div class="wizard-adds"></div></div><div class="wizard-hat"><div class="wizard-hat-of-the-hat"></div><div class="wizard-four-point-star --first"></div><div class="wizard-four-point-star --second"></div><div class="wizard-four-point-star --third"></div></div></div></div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://pic.imgdb.cn/item/612498fd44eaada739fbe00b.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">31</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">15</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">2</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/comments"><i class="fa-fw fas fa-comments"></i><span> Comments</span></a></div><div class="menus_item"><a class="site-page" href="/gallery"><i class="fa-fw fas fa-image"></i><span> Gallery</span></a></div><div class="menus_item"><a class="site-page" href="http://101.34.222.114:5212"><i class="fa-fw fas fa-cloud"></i><span> Netdisk</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://pic.imgdb.cn/item/62429bf927f86abb2a877eee.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Kang's</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/comments"><i class="fa-fw fas fa-comments"></i><span> Comments</span></a></div><div class="menus_item"><a class="site-page" href="/gallery"><i class="fa-fw fas fa-image"></i><span> Gallery</span></a></div><div class="menus_item"><a class="site-page" href="http://101.34.222.114:5212"><i class="fa-fw fas fa-cloud"></i><span> Netdisk</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">pjsk ver2.0.0 版本更新</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-03-25T05:38:00.000Z" title="Created 2022-03-25 13:38:00">2022-03-25</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-03-29T06:04:23.819Z" title="Updated 2022-03-29 14:04:23">2022-03-29</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="pjsk ver2.0.0 版本更新"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">Comments:</span><a href="/2022/03/25/pjsk-ver2-0-0-%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/2022/03/25/pjsk-ver2-0-0-%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="アップデートノート-更新说明-v2-0-0"><a href="#アップデートノート-更新说明-v2-0-0" class="headerlink" title="アップデートノート 更新说明 v2.0.0"></a>アップデートノート 更新说明 v2.0.0</h1><hr>
+<p><img src="https://pic.imgdb.cn/item/62429bf927f86abb2a877eee.png"></p>
+<p>1.5周年のアップデートノートへようこそ！<br>こんにちは、『プロジェクトセカイ』開発チームです。</p>
+<p>久しぶりのメジャーアップデートとなるバージョン2.0.0では、主に新しい遊び方となる「ランクマッチ」の実装が行われます。</p>
+<p>欢迎阅读1.5周年更新日志！</p>
+<p>大家好，这里是『Project SEKAI』开发团队。</p>
+<p>在本次时隔已久的大型更新2.0.0当中，主要将实装作为全新的游玩方式的<strong>「排位赛」</strong>。</p>
+<h2 id="▶「排位赛」的实装与预热赛季的举行"><a href="#▶「排位赛」的实装与预热赛季的举行" class="headerlink" title="▶「排位赛」的实装与预热赛季的举行"></a>▶「排位赛」的实装与预热赛季的举行</h2><p><img src="https://pic.imgdb.cn/item/62429cd827f86abb2a89e27e.png" alt="竞争节奏游戏的实力，来提高排位吧！
+1vs1的排位赛！积攒排位点数来提升排位！"></p>
+<p>リリースからこれまでの間、『プロジェクトセカイ』では定期的に「プロセカCS」等の公式大会を開催してまいりました。<br>私達としては、プロセカにおけるリズムゲームパートと競技シーンの紐付けは今後も強化していきたい点のひとつだと考えており、この度、より公式大会に近い環境で腕前を競うことができるゲームモードを追加することにしました。</p>
+<ul>
+<li><p>ランクマッチについて<br>「ランクマッチ」は、シーズンと呼ばれる期間内に上位のランクを目指し、プレイヤー同士が1vs1で腕前を競う対戦式のリズムゲームモードです。<br>ランクマッチはイベントとしてではなく一つのゲームモードとして追加されるため、他のイベントの開催とは関係なく、並行して遊ぶことができます。</p>
+</li>
+<li><p>ランクマッチへの参加方法<br>ランクマッチはリズムゲームの腕前を競う少し難易度の高いモードとなるため、以下の条件をクリアすることで初めて出現し、参加可能となります。</p>
+</li>
+<li><p>ランクマッチ解放条件<br>楽曲難易度「EXPERT」または「MASTER」のフルコンボ合計数が10以上</p>
+</li>
+</ul>
+<p>自从游戏上线至今，『Project SEKAI』已经定期举行了诸如「世界计划CS」等的官方大赛。</p>
+<p>对我们来说，『世界计划』的节奏游戏部分和竞技场景的联系是今后也想要继续强化的一点，因此，本次决定追加能够在更加接近官方大赛的环境中比拼技术的游戏模式。</p>
+<ul>
+<li><p>关于排位赛</p>
+<p>「排位赛」是指在被称为赛季的时间段内向高段位发起冲击，玩家之间以1v1形式比拼技术的对战型节奏游戏模式。</p>
+<p>排位赛不是作为活动，而是作为一种游戏模式追加，所以与其他活动无关，可以并行游玩。</p>
+<ul>
+<li><p>参加排位赛的方法</p>
+<p>排位赛是是比拼玩家的节奏游戏技术的难度较高的模式，所以需满足以下条件才会首次出现，并进行游玩。</p>
+</li>
+<li><p>排位赛的开放条件</p>
+<p>乐曲难度「EXPERT」或「MASTER」的FULL COMBO总数达到10以上</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://pic.imgdb.cn/item/62429e2c27f86abb2a8d1125.png" alt="根据判定进行特殊的分数计算来决定胜负！
+※获得分数相同的情况下，会根据PERFECT数·最大COMBO数·剩余体力等来决定胜负。"></p>
+<ul>
+<li><p>ランクマッチのルールと楽曲難易度について<br>ランクマッチは、以下の2つの条件に基づく特別ルールで実施します。</p>
+<ul>
+<li><p>編成ユニット</p>
+<ul>
+<li>編成ユニットの総合力はスコアに影響しません。</li>
+<li>編成メンバーのスキルは発動しません。</li>
+</ul>
+</li>
+<li><p>スコア計算<br>以下のノーツ判定結果によってスコアが計算されます。</p>
+<ul>
+<li>PERFECT：＋3</li>
+<li>GREAT　 ：＋2</li>
+<li>GOOD　 ：＋1</li>
+<li>BAD　　 ：±0</li>
+<li>MISS　 ：±0</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>※スコアが同点の場合、①PERFECT数、②最大コンボ数、③残りライフの優先度で勝敗を決定し、これらの項目でも勝敗がつかない場合は引き分けとなります。</p>
+<p>なお、ランクマッチでもライブ報酬・楽曲報酬・各種EXP・イベントPやバッジなどの報酬を獲得することができます。<br>こちらの報酬を決めるスコアは、デッキに編成されている総合力とライブ結果を元とした、通常通りのスコア計算によって行われ、また、獲得できる報酬の量は「ひとりでライブ」と同量になり、ライブボーナスも適用されます。</p>
+<ul>
+<li><p>対戦で選曲される楽曲について<br>対戦では自身のランクに応じて、ランダムで楽曲が選曲されます。<br>各ランク帯で選曲される楽曲の難易度レベルは以下の通りです。</p>
+<p>ビギナーランク　　：22 ～ 24<br>ブロンズランク　　：23 ～ 26<br>シルバーランク　　：25 ～ 28<br>ゴールドランク　　：27 ～ 30<br>プラチナランク　　：29 ～ 32<br>ダイヤモンドランク：30 ～ 34<br>マスターランク　　：31 ～ 36</p>
+</li>
+</ul>
+<p>※上記の難易度レベルについては、本アップデートノート下部に記載しております「難易度レベル幅拡張と一部楽曲の難易度レベル見直し」適用後のものとなります。詳細は該当項目をご一読ください。</p>
+<ul>
+<li><p>关于排位赛的规则和曲目难度</p>
+<p>排位赛将会实施基于以下两个条件的特殊规则。</p>
+<ul>
+<li><p>编队</p>
+<ul>
+<li><p>编队的综合力对分数没有影响。</p>
+</li>
+<li><p>编队成员的技能不会发动。</p>
+</li>
+</ul>
+</li>
+<li><p>计分</p>
+<p>​    根据按键的判定结果按照以下规则计算得分。</p>
+<ul>
+<li>PERFECT：+3</li>
+<li>GREAT：+2</li>
+<li>GOOD：+1</li>
+<li>BAD：±0</li>
+<li>MISS：±0</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>※分数相同的情况下，按照①PERFECT数；②最大combo数；③剩余生命值的优先级决定胜负，若根据上述项目仍然不能决定胜负，则视为平局。</p>
+<p>另外，在排位赛中也可以获得演出报酬·乐曲报酬·各种经验值·活动点数和徽章等报酬。</p>
+<p>决定这些报酬的分数，是以原编队的综合力和演出结果为基础，根据通常的计分法计算的，另外，能够获得的报酬数量和「单人演出」相同，并适用演出加成。</p>
+<ul>
+<li><p>关于在对战中选择的曲目</p>
+<p>在对战中将根据玩家自身的段位，随机选择曲目。</p>
+<p>各段位中会被选择的曲目难度等级如下所示。</p>
+<p>新手段位（beginner rank）：22~24</p>
+<p>青铜段位（bronze rank）：23~26</p>
+<p>白银段位（silver rank）：25~28</p>
+<p>黄金段位（gold rank）：27~30</p>
+<p>白金段位（platina rank）：29~32</p>
+<p>钻石段位（diamond rank）：30~34</p>
+<p>大师段位（master rank）：31~36</p>
+</li>
+</ul>
+<p>※上述的难度等级，是指本更新日志后文记载的「难度等级范围扩张以及部分曲目的难度等级修改」适用后的难度等级。详见该对应项目。</p>
+<p><img src="https://pic.imgdb.cn/item/62429eca27f86abb2a8e8567.png"></p>
+<ul>
+<li><p>ランクマッチのランクとシーズンについて</p>
+<ul>
+<li><p>スタートランクについて<br>ランクマッチではスタートするランクを決定するため、現在の実力を計る対戦を3回行います。この対戦では、過去のライブのプレイ実績を元に、近い実力同士のプレイヤーとのマッチングとなります。この3戦の結果と過去のライブのプレイ実績を元にスタートランクが決定します。</p>
+</li>
+<li><p>ランクについて<br>ランクを昇格させるには「ランクポイント」をためる必要があります。<br>ライブに勝利することで1つ獲得でき、このランクポイントを5つためた状態で対戦に勝利することで上のランクに昇格できます。<br>逆に、ライブに敗北するとランクポイントは1つ減ってしまいます。ランクポイントが0の状態で敗北すると下のランクに降格となります。</p>
+</li>
+<li><p>ランクポイントボーナスについて<br>ランクポイントには、100ためることでランクポイントを1つ増やすことができる「ランクポイントボーナス」があります。<br>ランクポイントボーナスはライブ結果によって増減します。プレシーズン開催時、条件は以下の通りですが、今後調整が加わる可能性がございます。</p>
+<p>・ALL PERFECT　：＋20<br>・フルコンボ 　　 ：＋10<br>・上位クラスに勝利：+10<br>・ライフ0　　　　 ：-30<br>※「ALL PERFECT」と「フルコンボ」のポイントボーナスは重複しません。</p>
+</li>
+<li><p>シーズン<br>ランクマッチは、一定の期間を1シーズンとし、その期間内にどれだけ上位のランクを目指せるかを競うシーズン制となります。<br>シーズン終了時点でのランクが最終戦績となり、そのシーズンランクを報酬である「称号」として獲得することができます。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>次のシーズンが始まるとランクはリセットされ、スタートランクから始めることになります。<br>なお、過去のシーズンでの最終ランクは記録されるため、ランクマッチ画面からいつでも確認することができます。</p>
+<ul>
+<li><p>关于排位赛的段位和赛季</p>
+<ul>
+<li>关于初始段位</li>
+</ul>
+<p>为了决定玩家在排位赛中的初始段位，将进行3次测试当前实力的对战。该对战将以玩家过去的演出成绩为基准，匹配实力相近的玩家。根据这3次对战的结果和过去的演出成绩，决定初始段位。</p>
+<ul>
+<li>关于段位</li>
+</ul>
+<p>要提升段位需要累积「段位点数」。</p>
+<p>每胜利一场可以获得1个段位点数，在已经累积5个段位点数的状态下再次获胜即可提升至上一段位。</p>
+<p>相反，每失败一场会减少1个段位点数。段位点数为0的状态下失败则降至下一段位。</p>
+<ul>
+<li>关于段位点数奖励积分</li>
+</ul>
+<p>对于段位点数，存在每累积100分即可增加1个段位点数的「段位点数奖励积分」。</p>
+<p>段位点数奖励积分会根据演出结果增减。预热赛季开始时，条件暂时如下，在今后可能会进行调整。</p>
+<p>•ALL PERFECT：+20</p>
+<p>•FULL COMBO：+10</p>
+<p>•战胜分段更高的对手：+10</p>
+<p>•生命值为0：-30</p>
+<p>※「ALL PERFECT」和「FULL COMBO」的奖励积分不会叠加。</p>
+<ul>
+<li>赛季</li>
+</ul>
+<p>排位赛以一定的时间段为一个赛季，实行在该时间段内尽可能争取高段位的赛季制。</p>
+<p>赛季结束时的段位为最终战绩，可以获得以赛季段位为「称号」的报酬。</p>
+<p>下一赛季开始时段位将会重置，从初始段位开始比赛。</p>
+<p>另外，在过去的赛季中的最终段位会被保存下来，随时可以在排位赛界面确认。</p>
+</li>
+</ul>
+<p><img src="https://pic.imgdb.cn/item/62429eca27f86abb2a8e856f.png"></p>
+<ul>
+<li><p>プレシーズンの開催について<br>ランクマッチは実際に本シーズンを開始する前に、プレシーズンを実施いたします。</p>
+<p>プレシーズンでは、ランク内のプレイヤー数が過度に偏ることがないなどのバランス調整の他、サーバへの負荷、各機能において深刻な問題が発生しないかなど、本シーズンを適切な状態で開催するためのデータ収集と確認を行います。</p>
+<p>プレシーズンの開催にあたり、ランクマッチの参加人数の計測、及び全ランク帯で安定したマッチングを成立させるため、ランクマッチに参加できる時間を18:00～24:59の限定開催とさせていただきます。<br>参加人数やマッチングなどが安定した状態での開催が確認できれば、プレシーズン期間内に開催時間を拡大することも検討しております。</p>
+<p>また、プレシーズンは本シーズンと異なり、シーズン終了時の報酬はごく少量のコインのみとなり、戦績も履歴には残りません。<br>その分、本シーズンに向けたウォームアップやランクマッチ機能の体験として、気兼ねなく触れていただければと思います。</p>
+<p>プレシーズンの開催時期などは別途ゲーム内のお知らせでご案内する予定ですので、楽しみにお待ちください。</p>
+</li>
+</ul>
+<h5 id="★4メンバーとバースデー（アニバーサリー）メンバーのマスターランクボーナス値の上昇"><a href="#★4メンバーとバースデー（アニバーサリー）メンバーのマスターランクボーナス値の上昇" class="headerlink" title="★4メンバーとバースデー（アニバーサリー）メンバーのマスターランクボーナス値の上昇"></a>★4メンバーとバースデー（アニバーサリー）メンバーのマスターランクボーナス値の上昇</h5><p>1周年のタイミングで行った「マスターランクに応じたイベントPやバッジへのボーナス」ですが、★4メンバーとバースデー（アニバーサリー）メンバーのマスターランクを上げることの労力に対して得られる恩恵が小さかったため、ボーナス値を下記の通りに上昇いたします。</p>
+<p>★4メンバー<br>・マスターランク1： 2% → 10%<br>・マスターランク2： 4% → 11%<br>・マスターランク3： 6% → 12%<br>・マスターランク4： 8% → 13%<br>・マスターランク5：10% → 15%</p>
+<p>バースデー（アニバーサリー）メンバー<br>・マスターランク1：1.5% → 5%<br>・マスターランク2： 3% → 6%<br>・マスターランク3：4.5% → 7%<br>・マスターランク4： 6% → 8%<br>・マスターランク5：7.5% → 10%</p>
+<h5 id="キズナランクの組み合わせ追加"><a href="#キズナランクの組み合わせ追加" class="headerlink" title="キズナランクの組み合わせ追加"></a>キズナランクの組み合わせ追加</h5><p>キズナランクに下記の3組のペアが新たに追加されます。</p>
+<p>・天馬咲希＆天馬司<br>・日野森志歩＆日野森雫<br>・東雲彰人＆東雲絵名</p>
+<p>なお、キズナランクの解放前に指定の組み合わせでライブを遊んでいても、キズナEXPは事前に蓄積されません。予めご了承ください。</p>
+<p>この度は上記3組のペアのみの追加となりますが、今後、よりスピードを上げて追加していけるよう準備を進めております。今しばらくお待ち下さい。</p>
+<h5 id="難易度レベル幅拡張と一部楽曲の難易度レベル見直し"><a href="#難易度レベル幅拡張と一部楽曲の難易度レベル見直し" class="headerlink" title="難易度レベル幅拡張と一部楽曲の難易度レベル見直し"></a>難易度レベル幅拡張と一部楽曲の難易度レベル見直し</h5><p>高難易度楽曲と呼ばれる楽曲が増えてきた反面、従来の難易度レベル表記の幅、特に難易度33～34においては、同じレベルでも楽曲毎に難しさの体感が大きく異なる状態となっておりました。<br>この状態を解消するため、難易度レベル表記幅の拡張、またそれに伴い一部楽曲において難易度レベル表記の見直しを実施いたします。<br>対象の楽曲と見直し後のレベル表記は以下の通りです。</p>
+<p>■the EmpErroR<br>　MASTER　34→36<br>　EXPERT　30→31<br>　HARD　　 21→23</p>
+<p>■Don’t Fight The Music<br>　MASTER　34→36<br>　HARD　　 21→23</p>
+<p>■エンドマークに希望と涙を添えて<br>　MASTER　34→35<br>　EXPERT　30→31<br>　HARD　　 21→23</p>
+<p>■初音ミクの消失<br>　MASTER　33→35<br>　EXPERT　29→30<br>　HARD　　21→22</p>
+<p>■マシンガンポエムドール<br>　MASTER　33→34<br>　EXPERT　30→31<br>　HARD　　21→23</p>
+<p>■六兆年と一夜物語<br>　MASTER　33→34</p>
+<p>■初音ミクの激唱<br>　EXPERT　29→30　</p>
+<p>■テオ<br>　MASTER　31→32</p>
+<p>■チルドレンレコード<br>　MASTER　31→32</p>
+<p>■フィクサー　<br>　MASTER　30→31</p>
+<p>■ロウワー<br>　MASTER　30→31</p>
+<p>■Glory Steady Go!<br>　MASTER　29→30</p>
+<p>■ミルククラウン・オン・ソーネチカ<br>　MASTER　29→30</p>
+<p>■ニジイロストーリーズ<br>　MASTER　28→29</p>
+<p>■ODDS&amp;ENDS<br>　MASTER　28→29</p>
+<p>■君色マリンスノウ　<br>　EXPERT　27→28</p>
+<p>■にっこり^^調査隊のテーマ<br>　EXPERT　26→27</p>
+<p>■天使のクローバー<br>　EXPERT　26→27</p>
+<p>なお、今回の調整は難易度レベルの”表記”の修正のみのため、リズムゲームの内容自体に変更が加わるものではありません。</p>
+<h5 id="ユニットランクが大幅に上がりやすくなるよう、ライブで獲得できるユニットEXP量の増加"><a href="#ユニットランクが大幅に上がりやすくなるよう、ライブで獲得できるユニットEXP量の増加" class="headerlink" title="ユニットランクが大幅に上がりやすくなるよう、ライブで獲得できるユニットEXP量の増加"></a>ユニットランクが大幅に上がりやすくなるよう、ライブで獲得できるユニットEXP量の増加</h5><p>現在、新しくプロセカを始められた方にとって、メインストーリーの解放に必要なユニットEXPを得るのが大変でなかなか読み進められない状態が続いてしまっております。<br>一方、ライブを遊んでメインストーリーを解放するといった一連のゲームプレイの流れは、ゲームの遊び方に慣れていただくための重要な立ち位置とも考えており、この度、ライブで獲得できるユニットEXPを大幅に増加する調整を行うことにいたしました。</p>
+<p>この調整は、1.5周年のメインストーリー解放キャンペーン終了後から適用する予定です。</p>
+<h5 id="一部ガチャの廃止、開催期間の調整"><a href="#一部ガチャの廃止、開催期間の調整" class="headerlink" title="一部ガチャの廃止、開催期間の調整"></a>一部ガチャの廃止、開催期間の調整</h5><p>リリース時より様々な種類のガチャをお届けしてまいりましたが、始めたばかりの方々にとって『結果的にどれを引けばよいのか』が分かりづらい状態となっておりました。<br>これを解消するため、今後一部のガチャを廃止、また開催期間の調整をいたします。</p>
+<p>対象となるガチャと詳細については以下の通りです。</p>
+<p>○イベントメンバーガチャ<br>リリース初期は、イベントボーナスを得られるメンバーが1人もいない方々が多かったため、開催されるようになったガチャですが、現在、その役目は終わりつつあります。3月30日以降に開催予定のイベントより廃止いたします。</p>
+<p>○★3以上確定チケットガチャ<br>貴重な「想いのカケラ」の使い先としては、あまり挙がらない候補となってしまっております。そのため、4月30日14時59分をもって廃止いたします。<br>※本ガチャの廃止に伴い「★3以上確定ガチャチケット」も廃止となります。所持されている「★3以上確定ガチャチケット」は後日回収し、1個あたり「想いのカケラ×300」の返還を行う予定です。<br>※本ガチャの廃止に伴い、毎月月中で更新していた「★3以上確定チケットガチャ」の4月の更新は実施いたしません。</p>
+<p>○初心者応援スタートダッシュガチャ<br>「初心者応援メモリアルガチャ」とどちらを引けば良いか、わかりにくい状態になってしまっておりました。そのため4月30日14時59分をもって廃止いたします。代わりに「初心者応援メモリアルガチャ」の開催期間をスタートダッシュガチャと同様の1週間に延長します。</p>
+<p>○初心者応援メモリアルセレクトガチャ<br>4月28日13時30分頃より開催期間をチュートリアル突破後2日間から1週間に変更いたします。<br>※上記の適用開始時間は予告なく変更となる場合がございます。</p>
+<h5 id="その他機能追加・改善"><a href="#その他機能追加・改善" class="headerlink" title="その他機能追加・改善"></a>その他機能追加・改善</h5><p>○コネクトライブの機能改善<br>○Android端末での一部画面のバックキー対応<br>○ベゼルレスの一部Android端末において画面に表示されなかった部分の解消<br>○メンバーTOP画面のキャラクターランクのアイコンデザイン変更</p>
+<h5 id="不具合の修正"><a href="#不具合の修正" class="headerlink" title="不具合の修正"></a>不具合の修正</h5><p>○タイトル画面の一部演出不具合の修正<br>○楽曲選択画面において、特定条件下で楽曲選択絞り込み後にプロフィール画面に遷移すると進行不能になる不具合の修正<br>○その他細かい不具合の修正</p>
+<p>■关于预热赛季的举行</p>
+<p>排位赛在正式赛季开始之前，会实施预热赛季。</p>
+<p>在预热赛季中，在调整同一段位内的玩家数过多或过少等影响平衡的现象的同时，还将收集和确认诸如服务器负荷、各功能是否有严重问题等，确保正式赛季能够在正常状态下举行的数据。</p>
+<p>为了保证在预热赛季举行期间，能够测算参加排位赛的人数，并保证所有段位内的匹配都能安全进行，预热赛季内排位赛的参加时间限于18:00<del>24:59（北京时间17:00</del>23:59）之间。如果能够确定参加人数和匹配等均处于稳定状态，也会考虑在预热赛季内放宽参加时间。</p>
+<p>另外，预热赛季与正式赛季不同，赛季结束时的报酬仅为极少量的金币，战绩和记录也不会保留。</p>
+<p>因此，也希望各位玩家能把预热赛季作为正式赛季的热身运动以及对排位赛功能的体验，放下顾虑大胆尝试。</p>
+<p>预热赛季的举行时间等信息将在游戏内通知中另行告知，敬请期待。</p>
+<p><strong>▶★4成员和生日（纪念日）成员的master rank加成数值上升</strong></p>
+<p>在1周年时实施了「与master rank对应的活动点数和徽章加成」，但是与提升★4成员和生日（纪念日）成员的master rank付出的劳动相比，回报太少，所以将按照下列规则提升加成数值。</p>
+<p>★4成员</p>
+<p>・master rank 1： 2% → 10%</p>
+<p>・master rank 2： 4% → 11%</p>
+<p>・master rank 3： 6% → 12%</p>
+<p>・master rank 4： 8% → 13%</p>
+<p>・master rank 5：10% → 15%</p>
+<p>生日（纪念日）成员</p>
+<p>・master rank 1：1.5% → 5%</p>
+<p>・master rank 2： 3% → 6%</p>
+<p>・master rank 3：4.5% → 7%</p>
+<p>・master rank 4： 6% → 8%</p>
+<p>・master rank 5：7.5% → 10%</p>
+<p><strong>▶亲密等级的适用组合追加</strong></p>
+<p>在亲密等级中将追加以下3个组合。</p>
+<p>•天马咲希&amp;天马司</p>
+<p>•日野森志步&amp;日野森雫</p>
+<p>•东云彰人&amp;东云绘名</p>
+<p>另外，即使在亲密等级开放前使用指定的组合游玩，亲密等级经验值也不会事先积累。还请谅解。</p>
+<p>本次追加的仅有上述3组，但是，也有在进行能在今后加快节奏追加更多组合的准备。现在还请稍作等候。</p>
+<p><strong>▶难度等级范围扩张以及部分曲目的难度等级修改</strong></p>
+<p>随着被称为高难度乐曲的曲目增加，一直以来的难度等级表示的范围，特别是33~34难度的范围里，即使是同等级的曲目，每首乐曲之间的难度体感也大有不同。</p>
+<p>为了消除这种状态，将对难度等级的表示范围进行扩张，相应地，一部分乐曲的难度等级表示也将修改。</p>
+<p>将被修改的乐曲和修改后的等级表示如下所示。</p>
+<p>■the EmpErroR</p>
+<p>　MASTER　34→36</p>
+<p>　EXPERT　30→31</p>
+<p>　HARD　　 21→23</p>
+<p>■Don’t Fight The Music</p>
+<p>　MASTER　34→36</p>
+<p>　HARD　　 21→23</p>
+<p>■エンドマークに希望と涙を添えて</p>
+<p>　MASTER　34→35</p>
+<p>　EXPERT　30→31</p>
+<p>　HARD　　 21→23</p>
+<p>■初音ミクの消失</p>
+<p>　MASTER　33→35</p>
+<p>　EXPERT　29→30</p>
+<p>　HARD　　21→22</p>
+<p>■マシンガンポエムドール</p>
+<p>　MASTER　33→34</p>
+<p>　EXPERT　30→31</p>
+<p>　HARD　　21→23</p>
+<p>■六兆年と一夜物語</p>
+<p>　MASTER　33→34</p>
+<p>■初音ミクの激唱</p>
+<p>　EXPERT　29→30　</p>
+<p>■テオ</p>
+<p>　MASTER　31→32</p>
+<p>■チルドレンレコード</p>
+<p>　MASTER　31→32</p>
+<p>■フィクサー　</p>
+<p>　MASTER　30→31</p>
+<p>■ロウワー</p>
+<p>　MASTER　30→31</p>
+<p>■Glory Steady Go!</p>
+<p>　MASTER　29→30</p>
+<p>■ミルククラウン・オン・ソーネチカ</p>
+<p>　MASTER　29→30</p>
+<p>■ニジイロストーリーズ</p>
+<p>　MASTER　28→29</p>
+<p>■ODDS&amp;ENDS</p>
+<p>　MASTER　28→29</p>
+<p>■君色マリンスノウ　</p>
+<p>　EXPERT　27→28</p>
+<p>■にっこり^^調査隊のテーマ</p>
+<p>　EXPERT　26→27</p>
+<p>■天使のクローバー</p>
+<p>　EXPERT　26→27</p>
+<p>另外，本次调整仅修改难度等级的“表示”，对节奏游戏的内容本身没有任何变更。</p>
+<p><strong>▶为了让组合等级更容易上升，增加在演出中获得的组合经验值</strong></p>
+<p>现在，对于刚开始游玩『世界计划』的人，解锁主线剧情所需的组合经验值太难获取，从而导致阅读进度无法推进的状态一直在持续着。</p>
+<p>另外，我们认为，通过演出解锁主线剧情的一套流程是熟悉本游戏游玩方式的重要一环，因此，本次调整将大幅提升演出中能够获得的组合经验值。</p>
+<p>此调整预定自1.5周年主线剧情开放活动结束后开始生效。</p>
+<p><strong>▶部分卡池废止、举办期间调整</strong></p>
+<p>自从游戏上线开始，我们设置了种类众多的卡池，结果对刚开始游玩的人来说，造成了难以分辨『结果到底该抽哪个好』的结果。</p>
+<p>为了消除这种状态，今后将废止一部分卡池，或调整部分卡池的举行期间。</p>
+<p>将进行调整的卡池内容如下所述。</p>
+<p>○活动成员招募</p>
+<p>游戏上线初期，由于有不少玩家连一个能获得活动加成的成员都没有，设置了本卡池，现在，本卡池的任务已经完成。预定3月30日以后开始的活动中将废止本卡池。</p>
+<p>○★3以上确定招募</p>
+<p>在贵重的「心愿碎片」的使用上，本卡池成为了基本不会被选择的选项。因此，从4月30日14时59分（北京时间4月30日13时59分）开始本卡池将废止。</p>
+<p>※与本卡池的废止相对应，「★3以上确定抽卡券」也将废止。玩家目前持有的「★3以上确定抽卡券」将在日后被回收，每回收1张相应返还「心愿碎片×300」。</p>
+<p>○新手应援冲刺卡池</p>
+<p>本卡池与「新手应援纪念卡池」，让玩家难以判断抽哪个更好。因此从4月30日14时59分（北京时间4月30日13时59分）开始将废止本卡池。作为代替，「新手纪念卡池」的举行期间将延长至与本卡池相同的一周。</p>
+<p>○新手纪念自选卡池</p>
+<p>从4月28日13时30分（北京时间4月28日12时30分）左右开始，本卡池的举行期间将从新手教程完成后2天内变更为1周内。</p>
+<p>※以上记载的适用开始时间有可能不经预告而发生改变。</p>
+<p><strong>▶其他的功能追加•改善</strong></p>
+<p>○connect live的功能改善</p>
+<p>○Android设备上部分画面对后退键的适应</p>
+<p>○消除部分无遮光板的Android设备上部分画面无法表示的现象</p>
+<p>○成员TOP画面上角色等级按钮的样式变更</p>
+<p><strong>▶故障修正</strong></p>
+<p>○标题画面部分演出故障修正</p>
+<p>○修正选曲界面上，特定条件下开启筛选后转移至个人资料界面时无法进行的故障</p>
+<p>○其他细微故障的修正</p>
+</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>pjsk ver2.0.0 版本更新</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="http://101.34.222.114/2022/03/25/pjsk-ver2-0-0-%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/">http://101.34.222.114/2022/03/25/pjsk-ver2-0-0-%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>Yicheng Kang</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2022-03-25</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2022-03-29</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/pjsk/">pjsk</a><a class="post-meta__tags" href="/tags/%E9%9F%B3%E6%B8%B8/">音游</a></div><div class="post_share"><div class="social-share" data-image="https://pic.imgdb.cn/item/62429bf927f86abb2a877eee.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/03/29/Clockwork-Planet-%E6%97%B6%E9%92%9F%E6%9C%BA%E5%85%B3%E4%B9%8B%E6%98%9F1/"><img class="prev-cover" src="https://pic.imgdb.cn/item/6242947a27f86abb2a753b0f.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">Clockwork Planet 时钟机关之星1</div></div></a></div><div class="next-post pull-right"><a href="/2022/02/06/%E5%96%9C%E7%BE%8A%E7%BE%8A%E4%B8%8E%E7%81%B0%E5%A4%AA%E7%8B%BC%E4%B9%8B%E8%99%8E%E8%99%8E%E7%94%9F%E5%A8%81/"><img class="next-cover" src="https://pic.imgdb.cn/item/61ff2d972ab3f51d914cbf11.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">喜羊羊与灰太狼之虎虎生威</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://pic.imgdb.cn/item/612498fd44eaada739fbe00b.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Yicheng Kang</div><div class="author-info__description"></div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">31</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">15</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">2</div></a></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%83%8E%E3%83%BC%E3%83%88-%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E-v2-0-0"><span class="toc-number">1.</span> <span class="toc-text">アップデートノート 更新说明 v2.0.0</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E2%96%B6%E3%80%8C%E6%8E%92%E4%BD%8D%E8%B5%9B%E3%80%8D%E7%9A%84%E5%AE%9E%E8%A3%85%E4%B8%8E%E9%A2%84%E7%83%AD%E8%B5%9B%E5%AD%A3%E7%9A%84%E4%B8%BE%E8%A1%8C"><span class="toc-number">1.1.</span> <span class="toc-text">▶「排位赛」的实装与预热赛季的举行</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%98%854%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%81%A8%E3%83%90%E3%83%BC%E3%82%B9%E3%83%87%E3%83%BC%EF%BC%88%E3%82%A2%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AA%E3%83%BC%EF%BC%89%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AE%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%8A%E3%82%B9%E5%80%A4%E3%81%AE%E4%B8%8A%E6%98%87"><span class="toc-number">1.1.0.0.1.</span> <span class="toc-text">★4メンバーとバースデー（アニバーサリー）メンバーのマスターランクボーナス値の上昇</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E3%82%AD%E3%82%BA%E3%83%8A%E3%83%A9%E3%83%B3%E3%82%AF%E3%81%AE%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B%E8%BF%BD%E5%8A%A0"><span class="toc-number">1.1.0.0.2.</span> <span class="toc-text">キズナランクの組み合わせ追加</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%AC%E3%83%99%E3%83%AB%E5%B9%85%E6%8B%A1%E5%BC%B5%E3%81%A8%E4%B8%80%E9%83%A8%E6%A5%BD%E6%9B%B2%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%AC%E3%83%99%E3%83%AB%E8%A6%8B%E7%9B%B4%E3%81%97"><span class="toc-number">1.1.0.0.3.</span> <span class="toc-text">難易度レベル幅拡張と一部楽曲の難易度レベル見直し</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E3%83%A9%E3%83%B3%E3%82%AF%E3%81%8C%E5%A4%A7%E5%B9%85%E3%81%AB%E4%B8%8A%E3%81%8C%E3%82%8A%E3%82%84%E3%81%99%E3%81%8F%E3%81%AA%E3%82%8B%E3%82%88%E3%81%86%E3%80%81%E3%83%A9%E3%82%A4%E3%83%96%E3%81%A7%E7%8D%B2%E5%BE%97%E3%81%A7%E3%81%8D%E3%82%8B%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88EXP%E9%87%8F%E3%81%AE%E5%A2%97%E5%8A%A0"><span class="toc-number">1.1.0.0.4.</span> <span class="toc-text">ユニットランクが大幅に上がりやすくなるよう、ライブで獲得できるユニットEXP量の増加</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%80%E9%83%A8%E3%82%AC%E3%83%81%E3%83%A3%E3%81%AE%E5%BB%83%E6%AD%A2%E3%80%81%E9%96%8B%E5%82%AC%E6%9C%9F%E9%96%93%E3%81%AE%E8%AA%BF%E6%95%B4"><span class="toc-number">1.1.0.0.5.</span> <span class="toc-text">一部ガチャの廃止、開催期間の調整</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E3%81%9D%E3%81%AE%E4%BB%96%E6%A9%9F%E8%83%BD%E8%BF%BD%E5%8A%A0%E3%83%BB%E6%94%B9%E5%96%84"><span class="toc-number">1.1.0.0.6.</span> <span class="toc-text">その他機能追加・改善</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%8D%E5%85%B7%E5%90%88%E3%81%AE%E4%BF%AE%E6%AD%A3"><span class="toc-number">1.1.0.0.7.</span> <span class="toc-text">不具合の修正</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/03/29/Clockwork-Planet-%E6%97%B6%E9%92%9F%E6%9C%BA%E5%85%B3%E4%B9%8B%E6%98%9F4/" title="Clockwork Planet 时钟机关之星4"><img src="https://pic.imgdb.cn/item/624296bc27f86abb2a7ae72d.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Clockwork Planet 时钟机关之星4"/></a><div class="content"><a class="title" href="/2022/03/29/Clockwork-Planet-%E6%97%B6%E9%92%9F%E6%9C%BA%E5%85%B3%E4%B9%8B%E6%98%9F4/" title="Clockwork Planet 时钟机关之星4">Clockwork Planet 时钟机关之星4</a><time datetime="2022-03-29T05:05:16.000Z" title="Created 2022-03-29 13:05:16">2022-03-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/03/29/Clockwork-Planet-%E6%97%B6%E9%92%9F%E6%9C%BA%E5%85%B3%E4%B9%8B%E6%98%9F3/" title="Clockwork Planet 时钟机关之星3"><img src="https://pic.imgdb.cn/item/6242964f27f86abb2a79dd2f.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Clockwork Planet 时钟机关之星3"/></a><div class="content"><a class="title" href="/2022/03/29/Clockwork-Planet-%E6%97%B6%E9%92%9F%E6%9C%BA%E5%85%B3%E4%B9%8B%E6%98%9F3/" title="Clockwork Planet 时钟机关之星3">Clockwork Planet 时钟机关之星3</a><time datetime="2022-03-29T05:05:12.000Z" title="Created 2022-03-29 13:05:12">2022-03-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/03/29/Clockwork-Planet-%E6%97%B6%E9%92%9F%E6%9C%BA%E5%85%B3%E4%B9%8B%E6%98%9F2/" title="Clockwork Planet 时钟机关之星2"><img src="https://pic.imgdb.cn/item/624295a427f86abb2a783679.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Clockwork Planet 时钟机关之星2"/></a><div class="content"><a class="title" href="/2022/03/29/Clockwork-Planet-%E6%97%B6%E9%92%9F%E6%9C%BA%E5%85%B3%E4%B9%8B%E6%98%9F2/" title="Clockwork Planet 时钟机关之星2">Clockwork Planet 时钟机关之星2</a><time datetime="2022-03-29T05:05:09.000Z" title="Created 2022-03-29 13:05:09">2022-03-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/03/29/Clockwork-Planet-%E6%97%B6%E9%92%9F%E6%9C%BA%E5%85%B3%E4%B9%8B%E6%98%9F1/" title="Clockwork Planet 时钟机关之星1"><img src="https://pic.imgdb.cn/item/6242947a27f86abb2a753b0f.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Clockwork Planet 时钟机关之星1"/></a><div class="content"><a class="title" href="/2022/03/29/Clockwork-Planet-%E6%97%B6%E9%92%9F%E6%9C%BA%E5%85%B3%E4%B9%8B%E6%98%9F1/" title="Clockwork Planet 时钟机关之星1">Clockwork Planet 时钟机关之星1</a><time datetime="2022-03-29T05:05:01.000Z" title="Created 2022-03-29 13:05:01">2022-03-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/03/25/pjsk-ver2-0-0-%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/" title="pjsk ver2.0.0 版本更新"><img src="https://pic.imgdb.cn/item/62429bf927f86abb2a877eee.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="pjsk ver2.0.0 版本更新"/></a><div class="content"><a class="title" href="/2022/03/25/pjsk-ver2-0-0-%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/" title="pjsk ver2.0.0 版本更新">pjsk ver2.0.0 版本更新</a><time datetime="2022-03-25T05:38:00.000Z" title="Created 2022-03-25 13:38:00">2022-03-25</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022 By Yicheng Kang</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="Toggle Between Traditional Chinese And Simplified Chinese">繁</button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Local search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())
+  setTimeout(function(){preloader.endLoading();}, 200);</script><div class="js-pjax"><script>function loadValine () {
+     function initValine () {
+      const valine = new Valine(Object.assign({
+          el: '#vcomment',
+          appId: 'qOdR9Yd3x1NWC14PRDH46epn-9Nh9j0Va',
+          appKey: '3y23wdYQekhEiRre3Hc3K8n6',
+          placeholder: '',
+          avatar: 'monsterid',
+          meta: 'nick'.split(','),
+          pageSize: '10',
+          lang: '',
+          recordIP: true,
+          serverURLs: '',
+          emojiCDN: '',
+          enableQQ: true,
+          path: window.location.pathname,
+          requiredFields: [],
+          master: '2c37403a95644732a8f4e98ea9f62082'.split(','),
+          friends: ''.split(','),
+          tagMeta: ["作者","友人","路人"],
+          metaPlaceholder: {},
+          visitor: false,
+          emojiMaps: { 
+            "1": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/1.gif",
+            "2": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/2.gif",
+            "3": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/3.gif",
+            "4": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/4.gif",
+            "5": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/5.gif",
+            "6": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/6.gif",
+            "7": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/7.gif",
+            "8": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/8.gif",
+            "9": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/9.gif",
+            "10": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/10.gif",
+            "11": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/11.gif",
+            "12": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/12.gif",
+            "13": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/13.gif",
+            "14": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/14.gif",
+            "15": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/15.gif",
+            "16": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/16.gif",
+            "17": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/17.gif",
+            "18": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/18.gif",
+            "19": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/19.gif",
+            "20": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/20.gif",
+            "21": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/21.gif",
+            "22": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/22.gif",
+            "23": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/23.gif",
+            "24": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/24.gif",
+            "25": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/25.gif",
+            "26": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/26.gif",
+            "27": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/27.gif",
+            "28": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/28.gif",
+            "29": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/29.gif",
+            "30": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/30.gif",
+            "31": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/31.gif",
+            "32": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/32.gif",
+            "33": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/33.gif",
+            "34": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/34.gif",
+            "35": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/35.gif",
+            "36": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/36.gif",
+            "37": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/37.gif",
+            "38": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/38.gif",
+            "39": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/39.gif",
+            "40": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/40.gif",
+            "41": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/41.gif",
+            "42": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/42.gif",
+            "43": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/43.gif",
+            "44": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/44.gif",
+            "45": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/45.gif",
+            "46": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/46.gif",
+            "47": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/47.gif",
+            "48": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/48.gif",
+            "49": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/49.gif",
+            "50": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/50.gif",
+            "51": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/51.gif",
+            "52": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/52.gif",
+            "53": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/53.gif",
+            "54": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/54.gif",
+            "55": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/55.gif",
+            "56": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/56.gif",
+            "57": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/57.gif",
+            "58": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/58.gif",
+            "59": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/59.gif",
+            "60": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/60.gif",
+            "61": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/61.gif",
+            "62": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/62.gif",
+            "63": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/63.gif",
+            "64": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/64.gif",
+            "65": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/65.gif",
+            "66": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/66.gif",
+            "67": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/67.gif",
+            "68": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/68.gif",
+            "69": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/69.gif",
+            "70": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/70.gif",
+            "71": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/71.gif",
+            "72": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/72.gif",
+            "73": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/73.gif",
+            "74": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/74.gif",
+            "75": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/75.gif",
+            "76": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/76.gif",
+            "77": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/77.gif",
+            "78": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/78.gif",
+            "79": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/79.gif",
+            "80": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/80.gif",
+            "81": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/81.gif",
+            "82": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/82.gif",
+            "83": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/83.gif",
+            "84": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/84.gif",
+            "85": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/85.gif",
+            "86": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/86.gif",
+            "87": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/87.gif",
+            "88": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/88.gif",
+            "89": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/89.gif",
+            "90": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/90.gif",
+            "91": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/91.gif",
+            "92": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/92.gif",
+            "93": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/93.gif",
+            "94": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/94.gif",
+            "95": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/95.gif",
+            "96": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/96.gif",
+            "97": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/97.gif",
+            "98": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/98.gif",
+            "99": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/99.gif",
+            "100": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/100.gif",
+            "101": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/101.gif",
+            "102": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/102.gif",
+            "103": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/103.gif",
+            "104": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/104.gif",
+            "105": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/105.gif",
+            "106": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/106.gif",
+            "107": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/107.gif",
+            "108": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/108.gif",
+            "109": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/109.gif",
+            "110": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/110.gif",
+            "111": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/111.gif",
+            "112": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/112.gif",
+            "113": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/113.gif",
+            "114": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/114.gif",
+            "115": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/115.gif",
+            "116": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/116.gif",
+            "117": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/117.gif",
+            "118": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/118.gif",
+            "119": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/119.gif",
+            "120": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/120.gif",
+            "121": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/121.gif",
+            "122": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/122.gif",
+            "123": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/123.gif",
+            "124": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/124.gif",
+            "125": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/125.gif",
+            "126": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/126.gif",
+            "127": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/127.gif",
+            "128": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/128.gif",
+            "129": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/129.gif",
+            "130": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/130.gif",
+            "131": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/131.gif",
+            "132": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/132.gif",
+            "133": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/133.gif",
+            "134": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/134.gif",
+            "135": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/135.gif",
+            "136": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/136.gif",
+            "137": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/137.gif",
+            "138": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/138.gif",
+            "139": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/139.gif",
+            "140": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/140.gif",
+            "141": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/141.gif",
+            "142": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/142.gif",
+            "143": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/143.gif",
+            "144": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/144.gif",
+            "145": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/145.gif",
+            "146": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/146.gif",
+            "147": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/147.gif",
+            "148": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/148.gif",
+            "149": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/149.gif",
+            "150": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/150.gif",
+            "151": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/151.gif",
+            "152": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/152.gif",
+            "153": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/153.gif",
+            "154": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/154.gif",
+            "155": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/155.gif",
+            "156": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/156.gif",
+            "157": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/157.gif",
+            "158": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/158.gif",
+            "159": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/159.gif",
+            "160": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/160.gif",
+            "161": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/161.gif",
+            "162": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/162.gif",
+            "163": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/163.gif",
+            "164": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/164.gif",
+            "165": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/165.gif",
+            "166": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/166.gif",
+            "167": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/167.gif",
+            "168": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/168.gif",
+            "169": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/169.gif",
+            "170": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/170.gif",
+            "171": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/171.gif",
+            "172": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/172.gif",
+            "173": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/173.gif",
+            "174": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/174.gif",
+            "175": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/175.gif",
+            "176": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/176.gif",
+            "177": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/177.gif",
+            "178": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/178.gif",
+            "179": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/179.gif",
+            "180": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/180.gif",
+            "181": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/181.gif",
+            "182": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/182.gif",
+            "183": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/183.gif",
+            "184": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/184.gif",
+            "185": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/185.gif",
+            "186": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/186.gif",
+            "187": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/187.gif",
+            "188": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/188.gif",
+            "189": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/189.gif",
+            "190": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/190.gif",
+            "191": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/191.gif",
+            "192": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/192.gif",
+            "193": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/193.gif",
+            "194": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/194.gif",
+            "195": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/195.gif",
+            "196": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/196.gif",
+            "197": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/197.gif",
+            "198": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/198.gif",
+            "199": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/199.gif",
+            "200": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/200.gif",
+            "201": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/201.gif",
+            "202": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/202.gif",
+            "203": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/203.gif",
+            "204": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/204.gif",
+            "205": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/205.gif",
+            "206": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/206.gif",
+            "207": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/207.gif",
+            "0": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/qq_2020f/0.gif",
+            "bili_tv_gif_黑人问号": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/黑人问号.gif",
+            "bili_tv_gif_抓狂": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/抓狂.gif",
+            "bili_tv_gif_再见": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/再见.gif",
+            "bili_tv_gif_晕": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/晕.gif",
+            "bili_tv_gif_疑问": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/疑问.gif",
+            "bili_tv_gif_斜眼笑": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/斜眼笑.gif",
+            "bili_tv_gif_笑哭": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/笑哭.gif",
+            "bili_tv_gif_无奈": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/无奈.gif",
+            "bili_tv_gif_委屈": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/委屈.gif",
+            "bili_tv_gif_微笑": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/微笑.gif",
+            "bili_tv_gif_吐血": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/吐血.gif",
+            "bili_tv_gif_偷笑": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/偷笑.gif",
+            "bili_tv_gif_思考": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/思考.gif",
+            "bili_tv_gif_睡着": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/睡着.gif",
+            "bili_tv_gif_生气": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/生气.gif",
+            "bili_tv_gif_生病": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/生病.gif",
+            "bili_tv_gif_色": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/色.gif",
+            "bili_tv_gif_亲亲": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/亲亲.gif",
+            "bili_tv_gif_呕吐": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/呕吐.gif",
+            "bili_tv_gif_难过": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/难过.gif",
+            "bili_tv_gif_腼腆": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/腼腆.gif",
+            "bili_tv_gif_流汗": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/流汗.gif",
+            "bili_tv_gif_流鼻血": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/流鼻血.gif",
+            "bili_tv_gif_困": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/困.gif",
+            "bili_tv_gif_抠鼻子": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/抠鼻子.gif",
+            "bili_tv_gif_可爱": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/可爱.gif",
+            "bili_tv_gif_惊吓": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/惊吓.gif",
+            "bili_tv_gif_坏笑": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/坏笑.gif",
+            "bili_tv_gif_害羞": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/害羞.gif",
+            "bili_tv_gif_鼓掌": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/鼓掌.gif",
+            "bili_tv_gif_尴尬": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/尴尬.gif",
+            "bili_tv_gif_发怒": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/发怒.gif",
+            "bili_tv_gif_发财": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/发财.gif",
+            "bili_tv_gif_调皮": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/调皮.gif",
+            "bili_tv_gif_点赞": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/点赞.gif",
+            "bili_tv_gif_呆": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/呆.gif",
+            "bili_tv_gif_大佬": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/大佬.gif",
+            "bili_tv_gif_大哭": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/大哭.gif",
+            "bili_tv_gif_打脸": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/打脸.gif",
+            "bili_tv_gif_馋": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/馋.gif",
+            "bili_tv_gif_闭嘴": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/闭嘴.gif",
+            "bili_tv_gif_鄙视": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/鄙视.gif",
+            "bili_tv_gif_白眼": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/白眼.gif",
+            "bili_tv_gif_doge": "https://cdn.jsdelivr.net/gh/tzy13755126023/emotion/bili_tv_gif/doge.gif",
+            //- "menhera-chan_SR_14": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_14.jpg",
+            //- "menhera-chan_SR_22": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_22.jpg",
+            //- "menhera-chan_SR_23": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_23.jpg",
+            //- "menhera-chan_SR_102": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_102.jpg",
+            //- "menhera-chan_SR_101": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_101.jpg",
+            //- "menhera-chan_SR_8": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_8.jpg",
+            //- "menhera-chan_SR_61": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_61.jpg",
+            //- "menhera-chan_SR_86": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_86.jpg",
+            //- "menhera-chan_SR_45": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_45.jpg",
+            //- "menhera-chan_SR_34": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_34.jpg",
+            //- "menhera-chan_SR_77": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_77.jpg",
+            //- "menhera-chan_SR_79": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_79.jpg",
+            //- "menhera-chan_SR_21": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_21.jpg",
+            //- "menhera-chan_SR_18": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_18.jpg",
+            //- "menhera-chan_SR_41": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_41.jpg",
+            //- "menhera-chan_SR_65": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_65.jpg",
+            //- "menhera-chan_SR_64": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_64.jpg",
+            //- "menhera-chan_SR_63": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_63.jpg",
+            //- "menhera-chan_SR_62": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_62.jpg",
+            //- "menhera-chan_SR_60": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_60.jpg",
+            //- "menhera-chan_SR_59": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_59.jpg",
+            //- "menhera-chan_SR_58": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_58.jpg",
+            //- "menhera-chan_SR_57": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_57.jpg",
+            //- "menhera-chan_SR_56": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_56.jpg",
+            //- "menhera-chan_SR_55": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_55.jpg",
+            //- "menhera-chan_SR_54": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_54.jpg",
+            //- "menhera-chan_SR_53": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_53.jpg",
+            //- "menhera-chan_SR_53(1)": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_53(1).jpg",
+            //- "menhera-chan_SR_52": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_52.jpg",
+            //- "menhera-chan_SR_51": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_51.jpg",
+            //- "menhera-chan_SR_50": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_50.jpg",
+            //- "menhera-chan_SR_49": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_49.jpg",
+            //- "menhera-chan_SR_48": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_48.jpg",
+            //- "menhera-chan_SR_47": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_47.jpg",
+            //- "menhera-chan_SR_46": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_46.jpg",
+            //- "menhera-chan_SR_44": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_44.jpg",
+            //- "menhera-chan_SR_43": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_43.jpg",
+            //- "menhera-chan_SR_42": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_42.jpg",
+            //- "menhera-chan_SR_40": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_40.jpg",
+            //- "menhera-chan_SR_39": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_39.jpg",
+            //- "menhera-chan_SR_38": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_38.jpg",
+            //- "menhera-chan_SR_37": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_37.jpg",
+            //- "menhera-chan_SR_36": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_36.jpg",
+            //- "menhera-chan_SR_35": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_35.jpg",
+            //- "menhera-chan_SR_33": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_33.jpg",
+            //- "menhera-chan_SR_32": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_32.jpg",
+            //- "menhera-chan_SR_31": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_31.jpg",
+            //- "menhera-chan_SR_30": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_30.jpg",
+            //- "menhera-chan_SR_29": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_29.jpg",
+            //- "menhera-chan_SR_28": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_28.jpg",
+            //- "menhera-chan_SR_27": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_27.jpg",
+            //- "menhera-chan_SR_26": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_26.jpg",
+            //- "menhera-chan_SR_25": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_25.jpg",
+            //- "menhera-chan_SR_24": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_24.jpg",
+            //- "menhera-chan_SR_20": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_20.jpg",
+            //- "menhera-chan_SR_19": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_19.jpg",
+            //- "menhera-chan_SR_17": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_17.jpg",
+            //- "menhera-chan_SR_16": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_16.jpg",
+            //- "menhera-chan_SR_15": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_15.jpg",
+            //- "menhera-chan_SR_13": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_13.jpg",
+            //- "menhera-chan_SR_12": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_12.jpg",
+            //- "menhera-chan_SR_11": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_11.jpg",
+            //- "menhera-chan_SR_10": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_10.jpg",
+            //- "menhera-chan_SR_9": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_9.jpg",
+            //- "menhera-chan_SR_7": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_7.jpg",
+            //- "menhera-chan_SR_6": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_6.jpg",
+            //- "menhera-chan_SR_5": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_5.jpg",
+            //- "menhera-chan_SR_4": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_4.jpg",
+            //- "menhera-chan_SR_3": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_3.jpg",
+            //- "menhera-chan_SR_2": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_2.jpg",
+            //- "menhera-chan_SR_1": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_1.jpg",
+            //- "menhera-chan_SR_120": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_120.jpg",
+            //- "menhera-chan_SR_119": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_119.jpg",
+            //- "menhera-chan_SR_118": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_118.jpg",
+            //- "menhera-chan_SR_117": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_117.jpg",
+            //- "menhera-chan_SR_116": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_116.jpg",
+            //- "menhera-chan_SR_115": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_115.jpg",
+            //- "menhera-chan_SR_114": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_114.jpg",
+            //- "menhera-chan_SR_113": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_113.jpg",
+            //- "menhera-chan_SR_112": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_112.jpg",
+            //- "menhera-chan_SR_111": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_111.jpg",
+            //- "menhera-chan_SR_110": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_110.jpg",
+            //- "menhera-chan_SR_109": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_109.jpg",
+            //- "menhera-chan_SR_108": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_108.jpg",
+            //- "menhera-chan_SR_107": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_107.jpg",
+            //- "menhera-chan_SR_106": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_106.jpg",
+            //- "menhera-chan_SR_105": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_105.jpg",
+            //- "menhera-chan_SR_104": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_104.jpg",
+            //- "menhera-chan_SR_103": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_103.jpg",
+            //- "menhera-chan_SR_100": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_100.jpg",
+            //- "menhera-chan_SR_99": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_99.jpg",
+            //- "menhera-chan_SR_98": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_98.jpg",
+            //- "menhera-chan_SR_97": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_97.jpg",
+            //- "menhera-chan_SR_96": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_96.jpg",
+            //- "menhera-chan_SR_95": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_95.jpg",
+            //- "menhera-chan_SR_94": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_94.jpg",
+            //- "menhera-chan_SR_93": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_93.jpg",
+            //- "menhera-chan_SR_92": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_92.jpg",
+            //- "menhera-chan_SR_91": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_91.jpg",
+            //- "menhera-chan_SR_90": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_90.jpg",
+            //- "menhera-chan_SR_89": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_89.jpg",
+            //- "menhera-chan_SR_88": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_88.jpg",
+            //- "menhera-chan_SR_87": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_87.jpg",
+            //- "menhera-chan_SR_85": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_85.jpg",
+            //- "menhera-chan_SR_84": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_84.jpg",
+            //- "menhera-chan_SR_83": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_83.jpg",
+            //- "menhera-chan_SR_82": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_82.jpg",
+            //- "menhera-chan_SR_81": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_81.jpg",
+            //- "menhera-chan_SR_80": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_80.jpg",
+            //- "menhera-chan_SR_78": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_78.jpg",
+            //- "menhera-chan_SR_76": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_76.jpg",
+            //- "menhera-chan_SR_75": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_75.jpg",
+            //- "menhera-chan_SR_74": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_74.jpg",
+            //- "menhera-chan_SR_73": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_73.jpg",
+            //- "menhera-chan_SR_72": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_72.jpg",
+            //- "menhera-chan_SR_71": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_71.jpg",
+            //- "menhera-chan_SR_70": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_70.jpg",
+            //- "menhera-chan_SR_69": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_69.jpg",
+            //- "menhera-chan_SR_68": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_68.jpg",
+            //- "menhera-chan_SR_67": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_67.jpg",
+            //- "menhera-chan_SR_66": "https://cdn.jsdelivr.net/gh/blogimg/emotion/menhera-chan/SR_66.jpg"
+            }
+      }, null))
+  }
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/valine_f/valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script async data-pjax src="/js/randombg.js"></script><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/title.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.removeEventListener('scroll', window.tocScrollFn)
+  window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
